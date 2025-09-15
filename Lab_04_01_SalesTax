@@ -1,0 +1,12 @@
+public class Lab_04_01_SalesTax {
+
+    public static void main(String[] args) {
+
+        double purchasePrice = 5.00;
+        double salesTax = 0.25;
+        double totalPrice = 5.25;
+
+        System.out.println("The price of purchase without sales tax is: " + purchasePrice);
+        System.out.println("The price of purchase with sales tax is: " + totalPrice);
+    }
+}
