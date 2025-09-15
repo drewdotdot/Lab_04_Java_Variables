@@ -1,0 +1,19 @@
+public class Lab_04_02_YearlyMaitenanceCost {
+
+    public static void main(String[] args) {
+
+        double springCost = 300.00;
+        double summerCost = 250.25;
+        double fallCost = 200.50;
+        double winterCost = 150.25;
+
+        double yearlyCost = 900.0;
+
+        System.out.println("Your spring cost is: " + springCost);
+        System.out.println("Your summer cost is: " + summerCost);
+        System.out.println("Your fall cost is: " + fallCost);
+        System.out.println("Your winter cost is: " + winterCost);
+        System.out.println("");
+        System.out.println("Your total yearly cost is: " + yearlyCost);
+    }
+}
