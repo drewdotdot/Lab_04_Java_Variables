@@ -1,0 +1,15 @@
+public class Lab_04_03_MonthlyCCBalance {
+
+    public static void main(String[] args) {
+
+        double initialBalance = 500.00;
+        double interestRate = 0.17;
+        double monthOneBalance = 585.00;
+        double monthTwoBalance = 684.45;
+
+        System.out.println("Your initial card balance is: " + initialBalance);
+        System.out.println("");
+        System.out.println("Your total after one month is: " + monthOneBalance);
+        System.out.println("Your total after two months is: " + monthTwoBalance);
+    }
+}
