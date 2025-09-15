@@ -39,5 +39,22 @@ public class Variables {
         System.out.println("The difference is " + doubleDifference);
         System.out.println("The quotient is " + doubleQuotient);
         System.out.println("The modulo is " + doubleModulo);
+
+
+        System.out.println("");
+
+        int numberChildren = 2;
+        boolean isRaining = false;
+        double priceGas = 3.29;
+        char middleInitial = 'T';
+        int favoriteNumber = 15;
+        int birthMonth = 6;
+
+        System.out.println("You have " + numberChildren + " kids in your family.");
+        System.out.println("It is raining out? " + isRaining);
+        System.out.println("The price of tea is $" + priceGas);
+        System.out.println("My middle initial is " + middleInitial);
+        System.out.println("My favorite number is " + favoriteNumber);
+        System.out.println("My birthmonth is " + birthMonth);
     }
 }
